@@ -1,10 +1,5 @@
 <template >
-  <div>
-    
-    <Login></Login>
-    
-    
-  </div>
+  <Login></Login>
 </template>
 
 <script>

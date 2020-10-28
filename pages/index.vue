@@ -1,6 +1,6 @@
 <template >
   <div >
-    <Login></Login>
+<p>soy el index</p>
   </div>
 </template>
 
