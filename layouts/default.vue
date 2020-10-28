@@ -16,13 +16,13 @@
       <img
         class="sm:h-20 w-full absolute"
         style="bottom: 0px"
-        src="wave-inverted.svg"
+        src="/wave-inverted.svg"
         alt=""
       />
       <img
         class="sm:h-20 w-full absolute"
         style="bottom: 10px"
-        src="wave-inverted copy.svg"
+        src="/wave-inverted copy.svg"
         alt=""
       />
     </div>
