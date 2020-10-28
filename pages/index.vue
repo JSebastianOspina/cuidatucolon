@@ -1,8 +1,6 @@
 <template >
   <div >
-    <Cabecera></Cabecera>
     <Login></Login>
-      <Abajo></Abajo>
   </div>
 </template>
 

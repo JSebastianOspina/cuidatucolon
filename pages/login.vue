@@ -1,17 +1,15 @@
 <template >
-  <div >
-    <Cabecera></Cabecera>
+  <div>
+    
     <Login></Login>
-    <Abajo></Abajo>
+    
+    
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
