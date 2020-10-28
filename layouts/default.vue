@@ -1,11 +1,11 @@
 <template>
-  <div class="h-screen flex flex-col overflow-hidden">
+  <div class="h-screen flex flex-col">
     <div>
-      <img class="md:h-40 w-full" src="wave.svg" alt="" />
+      <img class="md:h-40 w-full" src="/wave.svg" alt="" />
       <img
         class="md:h-40 w-full absolute"
         style="top: 5px"
-        src="wave copy.svg"
+        src="/wave copy.svg"
         alt=""
       />
     </div>
