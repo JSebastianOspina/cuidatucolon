@@ -2,7 +2,7 @@
   <div >
     <Cabecera></Cabecera>
     <Login></Login>
-    <Abajo></Abajo>
+      <Abajo></Abajo>
   </div>
 </template>
 
