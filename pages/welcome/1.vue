@@ -4,30 +4,8 @@
       class="bg-cover relative"
       style="height: 65%; background-image: url('/welcome/fondo1.jpg')"
     >
-      <div class="custom-shape-divider-bottom-1603982097">
-        <svg
-          width="437"
-          height="553"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          xmlns:svgjs="http://svgjs.com/svgjs"
-          viewBox="0 0.598 437 551.805"
-          preserveAspectRatio="none"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="437"
-            height="553"
-            viewBox="90 0.819 436.921 551.705"
-          >
-            <path
-              paint-order="stroke fill markers"
-              fill-rule="evenodd"
-              d="M90 312.318s58.357-128.75 215.932-84.552C463.507 271.964 513.547.819 513.547.819l13.374 551.705H90V312.318z"
-              class="shape-fill"
-            />
-          </svg>
-        </svg>
+      <div class="custom-shape-divider-bottom-1">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" ><path class="shape-fill" d="M-100.24,170.19 C90.82,20.98 450.96,301.27 500.22,0.30 L513.77,153.25 L0.79,172.00 Z"></path></svg>
       </div>
     </div>
 
@@ -65,7 +43,7 @@ export default {
 <style >
  
 
-.custom-shape-divider-bottom-1603982097 {
+.custom-shape-divider-bottom-1 {
   position: absolute;
   bottom: 0;
   right: 0px;
@@ -74,14 +52,14 @@ export default {
   width: 100%;
 }
 
-.custom-shape-divider-bottom-1603982097 svg {
+.custom-shape-divider-bottom-1 svg {
   position: relative;
   display: block;
-  width: 105%;
-  height: 150px;
+  width: 100%;
+  height: 200px;
 }
 
-.custom-shape-divider-bottom-1603982097 .shape-fill {
+.custom-shape-divider-bottom-1 .shape-fill {
   fill: #f4f5fa;
 }
 .inicio{
