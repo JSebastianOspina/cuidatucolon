@@ -30,11 +30,11 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 </script>
 <style>
 body {
-  
+  position: relative;
   background-color: #f4f5fa;
 }
 .contenedor{
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
 }
 .custom-shape-divider-bottom-1603949143 {
