@@ -37,9 +37,9 @@
     </div>
     <div class="flex flex-row mt-5 justify-center">
      
-      <div class="mr-2 p-3 shadow-md w-auto">
+      <div class="mr-2 p-3 rounded-md shadow-md w-auto bg-white">
         <svg
-          class="w-5 md:w-6 md:h-6 h-5 mx-auto"
+          class="w-10 rounded h-5 mx-auto"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
         >
@@ -49,8 +49,8 @@
           />
         </svg>
       </div>
-      <div class="ml-2 p-3 shadow-md w-auto">
-        <svg  class="w-5 md:w-6 md:h-6 h-5  mx-auto" href="http://google.com"
+      <div class="ml-2 p-3 shadow-md rounded-md w-auto bg-white">
+        <svg  class="w-10  h-5 mx-auto" href="http://google.com"
         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path
             d="M492.668 211.489l-208.84-.01c-9.222 0-16.697 7.474-16.697 16.696v66.715c0 9.22 7.475 16.696 16.696 16.696h117.606c-12.878 33.421-36.914 61.41-67.58 79.194L384 477.589c80.442-46.523 128-128.152 128-219.53 0-13.011-.959-22.312-2.877-32.785-1.458-7.957-8.366-13.785-16.455-13.785z"

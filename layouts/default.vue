@@ -32,6 +32,7 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 body {
   position: relative;
   background-color: #f4f5fa;
+  
 }
 .contenedor{
    height: 100vh; /* Fallback for browsers that do not support Custom Properties */

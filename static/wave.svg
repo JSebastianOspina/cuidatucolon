@@ -1,1 +1,26 @@
-<?xml version="1.0" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" ><path fill="#62B776" fill-opacity="1" d="M0,64L60,53.3C120,43,240,21,360,26.7C480,32,600,64,720,96C840,128,960,160,1080,176C1200,192,1320,192,1380,192L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+ <svg
+          width="437"
+          height="553"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svgjs="http://svgjs.com/svgjs"
+          viewBox="0 0.598 437 551.805"
+          preserveAspectRatio="none"
+                    fill="#33459b"
+
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="437"
+            height="553"
+            viewBox="90 0.819 436.921 551.705"
+          preserveAspectRatio="none"
+          >
+            <path
+              paint-order="stroke fill markers"
+              fill-rule="evenodd"
+              d="M90 312.318s58.357-128.75 215.932-84.552C463.507 271.964 513.547.819 513.547.819l13.374 551.705H90V312.318z"
+              class="shape-fill"
+            />
+          </svg>
+        </svg>
