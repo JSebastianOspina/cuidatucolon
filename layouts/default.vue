@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex flex-col">
+  <div class="h-full flex flex-col">
     <div>
       <img class="md:h-40 w-full" src="/wave.svg" alt="" />
       <img
@@ -12,7 +12,7 @@
 
     <Nuxt />
 
-    <div class="" style="">
+    <div>
       <img
         class="sm:h-20 w-full absolute"
         style="bottom: 0px"
