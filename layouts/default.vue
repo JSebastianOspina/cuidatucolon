@@ -14,14 +14,14 @@
 
     <div>
       <img
-        class="sm:h-20 w-full absolute"
+        class="h-16 sm:h-20 w-full absolute"
         style="bottom: 0px"
         src="/wave-inverted.svg"
         alt=""
       />
       <img
-        class="sm:h-20 w-full absolute"
-        style="bottom: 10px"
+        class="h-16 sm:h-20 w-full absolute"
+        style="bottom: 7px"
         src="/wave-inverted copy.svg"
         alt=""
       />
