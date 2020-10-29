@@ -1,0 +1,8 @@
+.steps-enter-active,
+.steps-leave-active {
+  transition: opacity 0.5s;
+}
+.steps-enter,
+.steps-leave-active {
+  opacity: 0;
+}

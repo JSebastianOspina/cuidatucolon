@@ -2,7 +2,7 @@
   <div class="h-full flex flex-col inicio">
     <div
       class="bg-cover relative"
-      style="height: 65%; background-image: url('/fondo.jpg')"
+      style="height: 65%; background-image: url('/welcome/fondo.jpg')"
     >
       <div class="custom-shape-divider-bottom-1603982097">
         <svg
@@ -59,9 +59,13 @@
 <script>
 export default {
   layout: "blanco",
+ transition: {
+    name: 'steps',
+  }
 };
 </script>
 <style >
+ 
 .custom-shape-divider-bottom-1603982097 {
   position: absolute;
   bottom: 0;
@@ -74,8 +78,8 @@ export default {
 .custom-shape-divider-bottom-1603982097 svg {
   position: relative;
   display: block;
-  width: calc(105%);
-  height: 200px;
+  width: 105%;
+  height: 150px;
 }
 
 .custom-shape-divider-bottom-1603982097 .shape-fill {
