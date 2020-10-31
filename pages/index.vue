@@ -1,5 +1,5 @@
 <template >
-  <div class="flex flex-col w-screen">
+  <div class="flex flex-col w-screen ">
     <div class="flex justify-around relative">
         <div class="custom-shape-divider-top-1603949195">
           <svg
@@ -32,7 +32,7 @@
         <span class="">Hoy, 2 de ocutubre</span>
       </div>
     </div>
-    <div class="flex flex-col h-40 py-5 px-6">
+    <div class="flex flex-col py-5 px-6">
       <div class="tarjeta px-1 py-4 bg-white shadow-xl rounded-xl">
         <div class="w-100 ml-4 mb-3">
           <h3 class="text-lg font-bold">Estadísticas</h3>
@@ -57,22 +57,22 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-around mt-10 text-center mx-5">
-      <div class="flex-auto py-2 px-5 mx-2 hover:bg-green-400 hover:text-white">
+    <div class="flex justify-around text-center px-4">
+      <div class="py-2 px-5  hover:bg-green-400 hover:text-white">
         Desayuno
       </div>
-      <div class="flex-auto py-2 px-5 mx-2 hover:bg-green-400 hover:text-white">
-        Almuerzos
+      <div class="py-2 px-5  hover:bg-green-400 hover:text-white">
+        Almuerzo
       </div>
-      <div class="flex-auto py-2 px-5 mx-2 hover:bg-green-400 hover:text-white">
-        Comidas
+      <div class="py-2 px-5  hover:bg-green-400 hover:text-white">
+        Comida
       </div>
     </div>
 
-    <div class="flex flex-col bg-red-200 mb-5" v-for="i in recetas" :key="i">
+    <div class="flex flex-col md:flex-row mb-5 mt-3" v-for="i in recetas" :key="i.nombre">
       <div
-        :style="{ backgroundImage: s(i.image) }"
-        class="h-64 w-2/5 my-3 block bg-cover self-center rounded-xl shadow-xl"
+        :style="{ backgroundImage: 'url('+i.image+')'}"
+        class="h-64 w-3/5 my-3 block bg-cover self-center rounded-xl shadow-xl"
       ></div>
       <div class="text-center">
         <span>{{ i.nombre }}</span>
@@ -85,10 +85,7 @@
 export default {
   layout: "insideapp",
   methods: {
-    s(param) {
-      console.log(param);
-      return "url(" + param + ")";
-    },
+    
   },
   computed: {},
   data() {
