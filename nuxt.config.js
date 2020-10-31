@@ -60,8 +60,8 @@ export default {
 
   pwa: {
     manifest: {
-      start_url : routerBase,
-      display:fullscreen
+      start_url : '',
+      display:'fullscreen',
     }
   }
 }
