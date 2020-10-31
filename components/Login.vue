@@ -22,17 +22,17 @@
             placeholder="Contraseña"
           />
         </div>
-        <p class="text-md font-light mt-6">¿Olvidaste tu contraseña?</p>
+        <p class="text-md font-light mt-6 text-gray-600 ">¿Olvidaste tu contraseña?</p>
         <button
           class="mt-6 py-3 rounded-full text-white bg-blue-900 px-7 w-full"
           type="submit"
         >
           Iniciar sesión
         </button>
-        <p class="text-md font-light mt-6 inline-block">
+        <p class="text-md font-light text-gray-600 mt-6 inline-block">
           ¿No tienes una cuenta?
         </p>
-        <a class="ml-1" href="">Regístrate</a>
+        <a class="ml-1 text-gray-700" href="">Regístrate</a>
       </form>
     </div>
     <div class="flex flex-row mt-5 justify-center">

@@ -1,6 +1,6 @@
 <template >
-  <div class="flex flex-col w-screen bg-blue-200">
-    <div class="flex superior justify-around">
+  <div class="flex flex-col w-screen mt-16">
+    <div class="flex justify-around">
       <div class="">
         <span class="text-2xl font-extrabold block">Actividad</span>
       </div>
@@ -44,9 +44,15 @@
         Comidas
       </div>
     </div>
-    <div class="flex flex-auto items-center flex-col bg-red-200 ">
-      <div v-for="i in 4" :key="i" style="" class="h-64 flex-auto w-2/5 px-20 my-3 rounded-xl shadow-xl bg-yellow-200">
-       
+
+    <div class="flex flex-col bg-red-200 mb-5"  v-for="i in recetas"
+        :key="i">
+      <div
+        :style="{ backgroundImage: s(i.image) }"
+        class="h-64 w-2/5 my-3 block bg-cover self-center rounded-xl shadow-xl"
+      ></div>
+      <div class="text-center">
+        <span>{{i.nombre}}</span>
       </div>
     </div>
   </div>
@@ -55,10 +61,65 @@
 <script>
 export default {
   layout: "insideapp",
+  methods: {
+    s(param) {
+      console.log(param);
+      return "url(" + param + ")";
+    },
+  },
+  computed: {},
+  data() {
+    return {
+      recetas: [
+        {
+          nombre: "Hola",
+          image:
+            "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/08/Aprende-como-hacer-un-huevo-frito-perfecto-con-trucos-y-consejos.jpg",
+        },
+        {
+          nombre: "Hola",
+          image:
+            "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/08/Aprende-como-hacer-un-huevo-frito-perfecto-con-trucos-y-consejos.jpg",
+        },
+        {
+          nombre: "Hola",
+          image:
+            "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/08/Aprende-como-hacer-un-huevo-frito-perfecto-con-trucos-y-consejos.jpg",
+        },
+      ],
+    };
+  },
 };
 </script>
 
 <style>
-.todo {
+.custom-shape-divider-bottom-1603949143 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1603949143 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 54px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1603949143 .shape-fill {
+  fill: #62b776;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1603949143 svg {
+    width: calc(100% + 1.3px);
+    height: 54px;
+  }
 }
 </style>

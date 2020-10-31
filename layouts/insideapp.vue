@@ -1,5 +1,5 @@
 <template>
-  <div class="contenedor h-screen flex justify-center">
+  <div class="contenedor h-screen flex justify-center ">
     <div class="custom-shape-divider-top-1603949195">
       <svg
         data-name="Layer 1"
@@ -23,7 +23,7 @@
         ></path>
       </svg>
     </div>
-    <div class="mt-16 justify-self-center">
+    <div class="justify-self-center  overflow-y-auto">
       <Nuxt />
     </div>
     <div class="barra-abajo">
@@ -227,6 +227,8 @@ body {
 .contenedor {
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
+  
+
 }
 .custom-shape-divider-bottom-1603949143 {
   position: absolute;
