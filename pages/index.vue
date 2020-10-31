@@ -40,31 +40,31 @@
         <div class="flex w-full justify-around">
           <div class="flex-auto pl-3">
             <h3 class="text-sm text-left">Desayunos</h3>
-            <p class="text-green-500 text-2xl font-medium">6</p>
+            <p class="text-verde text-2xl font-medium">6</p>
           </div>
           <div class="flex-auto pl-3">
             <h3 class="text-sm">Almuerzos</h3>
-            <p class="text-green-500 text-2xl font-medium">6</p>
+            <p class="text-verde text-2xl font-medium">6</p>
           </div>
           <div class="flex-auto pl-3">
             <h3 class="text-sm">Comidas</h3>
-            <p class="text-green-500 text-2xl font-medium">6</p>
+            <p class="text-verde text-2xl font-medium">6</p>
           </div>
         </div>
         <div class="text-center text-sm mt-3">
           <p class="inline">Nunca te rindas, la recompensa vendrá</p>
-          <span class="text-green-500">pronto</span>
+          <span class="text-verde">pronto</span>
         </div>
       </div>
     </div>
     <div class="flex justify-around text-center px-4">
-      <div class="py-2 px-5  hover:bg-green-400 hover:text-white">
+      <div class="py-2 px-5  hover:bg-verde hover:text-white">
         Desayuno
       </div>
-      <div class="py-2 px-5  hover:bg-green-400 hover:text-white">
+      <div class="py-2 px-5  hover:bg-verde hover:text-white">
         Almuerzo
       </div>
-      <div class="py-2 px-5  hover:bg-green-400 hover:text-white">
+      <div class="py-2 px-5  hover:bg-verde hover:text-white">
         Comida
       </div>
     </div>
@@ -75,7 +75,7 @@
         class="h-64 w-3/5 my-3 block bg-cover self-center rounded-xl shadow-xl"
       ></div>
       <div class="text-center">
-        <span>{{ i.nombre }}</span>
+        <span class="font-bold">{{ i.nombre }}</span>
       </div>
     </div>
   </div>
@@ -92,17 +92,17 @@ export default {
     return {
       recetas: [
         {
-          nombre: "Hola",
+          nombre: "Yogurt with Fruits",
           image:
             "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/08/Aprende-como-hacer-un-huevo-frito-perfecto-con-trucos-y-consejos.jpg",
         },
         {
-          nombre: "Hola",
+          nombre: "Yogurt with Fruits",
           image:
             "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/08/Aprende-como-hacer-un-huevo-frito-perfecto-con-trucos-y-consejos.jpg",
         },
         {
-          nombre: "Hola",
+          nombre: "Yogurt with Fruits",
           image:
             "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/08/Aprende-como-hacer-un-huevo-frito-perfecto-con-trucos-y-consejos.jpg",
         },
@@ -132,7 +132,7 @@ export default {
 }
 
 .custom-shape-divider-bottom-1603949143 .shape-fill {
-  fill: #62b776;
+  fill: #6CC57C;
 }
 
 /** For mobile devices **/
