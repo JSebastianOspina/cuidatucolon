@@ -60,7 +60,7 @@ export default {
 
   pwa: {
     manifest: {
-      start_url : '',
+      start_url : '/',
       display:'fullscreen',
     }
   }
