@@ -1,6 +1,13 @@
 html{
   font-family: 'Noto Sans', sans-serif;
+  
 }
+body {
+  position: relative;
+  background-color: #f4f5fa;
+  color:#23233C;
+}
+
 .steps-enter-active,
 .steps-leave-active {
   transition: opacity 0.5s;

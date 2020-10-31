@@ -198,10 +198,7 @@ export default {
 };
 </script>
 <style>
-body {
-  position: relative;
-  background-color: #f4f5fa;
-}
+
 .contenedor {
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
@@ -227,7 +224,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1603949143 .shape-fill {
-  fill: #62b776;
+  fill: #6CC57C;
 }
 
 /** For mobile devices **/
