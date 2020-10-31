@@ -57,18 +57,20 @@
       <div class="py-2 px-5 hover:bg-verde hover:text-white">Almuerzo</div>
       <div class="py-2 px-5 hover:bg-verde hover:text-white">Comida</div>
     </div>
-
-    <div class="flex flex-col mb-5 mt-1" v-for="i in recetas" :key="i.nombre">
-      <div class="flex my-3 justify-center">
-        <img
-          :src="i.image"
-          style="height: 320px; width:237px"
-          class="rounded-3xl sombra"
-          alt=""
-        />
-      </div>
+<div class="mb-16">
+  
+      <div class="flex flex-col mb-5 mt-1" v-for="i in recetas" :key="i.nombre">
+        <div class="flex my-3 justify-center">
+          <img
+            :src="i.image"
+            style="height: 320px; width: 237px"
+            class="rounded-3xl sombra"
+            alt=""
+          />
+        </div>
         <span class="font-bold text-center mt-3">{{ i.nombre }}</span>
-    </div>
+      </div>
+</div>
   </div>
 </template>
 
@@ -81,19 +83,16 @@ export default {
     return {
       recetas: [
         {
-          nombre: "Yogurt with Fruits",
-          image:
-            "https://images.unsplash.com/photo-1501959915551-4e8d30928317",
+          nombre: "Yogurt con frutas",
+          image: "https://images.unsplash.com/photo-1501959915551-4e8d30928317",
         },
         {
-          nombre: "Yogurt with Fruits",
-          image:
-            "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/08/Aprende-como-hacer-un-huevo-frito-perfecto-con-trucos-y-consejos.jpg",
+          nombre: "Arroz con ensalada",
+          image: "https://images.unsplash.com/photo-1519996409144-56c88c9aa612",
         },
         {
-          nombre: "Yogurt with Fruits",
-          image:
-            "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/08/Aprende-como-hacer-un-huevo-frito-perfecto-con-trucos-y-consejos.jpg",
+          nombre: "Tacos sin gluten",
+          image: "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3",
         },
       ],
     };
@@ -102,15 +101,15 @@ export default {
 </script>
 
 <style>
-.sombra{
-  -webkit-box-shadow: 0px 20px 30px 0px rgba(12,37,108,0.13);
--moz-box-shadow: 0px 20px 30px 0px rgba(12,37,108,0.13);
-box-shadow: 0px 20px 30px 0px rgba(12,37,108,0.13);
+.sombra {
+  -webkit-box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
+  -moz-box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
+  box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
 }
-.sombra-pequena{
-  -webkit-box-shadow: 0px 10px 20px 0px rgba(25,22,109,0.1);
--moz-box-shadow: 0px 10px 20px 0px rgba(25,22,109,0.1);
-box-shadow: 0px 10px 20px 0px rgba(25,22,109,0.1);
+.sombra-pequena {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
+  box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
 }
 .custom-shape-divider-bottom-1603949143 {
   position: absolute;
