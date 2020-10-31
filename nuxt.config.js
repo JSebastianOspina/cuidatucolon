@@ -56,5 +56,12 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  pwa: {
+    manifest: {
+      start_url : routerBase,
+      display:fullscreen
+    }
   }
 }
