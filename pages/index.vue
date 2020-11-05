@@ -59,18 +59,13 @@
     </div>
 <div class="mb-16">
   
-      <div class="flex flex-col mb-5 mt-1" v-for="i in recetas" :key="i.nombre">
-        <nuxt-link :to="'/receta/'+i.nombre">
+      <div class="flex flex-col mb-5 mt-1" v-for="i in slug" :key="i">
+        <nuxt-link :to="'/receta/'+i">
           <div class="flex my-3 justify-center">
-            <img
-              :src="i.image"
-              style="height: 320px; width: 237px"
-              class="rounded-3xl sombra"
-              alt=""
-            />
+           
           </div>
         </nuxt-link>
-        <span class="font-bold text-center mt-3">{{ i.nombre }}</span>
+        <span class="font-bold text-center mt-3">{{ i }}</span>
       </div>
 </div>
   </div>
@@ -81,7 +76,15 @@ export default {
   layout: "insideapp",
   methods: {},
   computed: {},
-  
+   async asyncData() {
+     
+      const slug = await fetch('http://names.drycodes.com/10').then(res => 
+     res.json());
+      return { slug }
+
+    },
+    
+
   data() {
     return {
       recetas: [
