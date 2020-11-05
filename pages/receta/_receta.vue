@@ -19,6 +19,11 @@ export default {
             hid: 'description',
             name: 'description',
             content: 'Receta de '+this.slug,
+          },
+           {
+            hid: 'og:description',
+            name: 'og:description',
+            content: 'Receta de '+this.slug,
           }
         ]
       }
