@@ -57,7 +57,7 @@
       <div class="py-2 px-5 hover:bg-verde hover:text-white">Almuerzo</div>
       <div class="py-2 px-5 hover:bg-verde hover:text-white">Comida</div>
     </div>
-<div class="mb-16">
+<div class="">
   
       <div class="flex flex-col mb-5 mt-1" v-for="i in recetas" :key="i.nombre">
         <nuxt-link :to="'/receta/'+i.nombre">
@@ -113,16 +113,7 @@ export default {
 </script>
 
 <style>
-.sombra {
-  -webkit-box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
-  -moz-box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
-  box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
-}
-.sombra-pequena {
-  -webkit-box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
-  -moz-box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
-  box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
-}
+
 .custom-shape-divider-bottom-1603949143 {
   position: absolute;
   bottom: 0;

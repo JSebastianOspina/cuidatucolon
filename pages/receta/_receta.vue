@@ -19,13 +19,48 @@
           ></path>
         </svg>
       </div>
+      <div
+        class="w-10 h-10 shadow-xl flex rounded-full bg-white absolute"
+        style="top: 10px; left: 10px"
+      >
+          <div class="text-center mt-1 flex w-full h-full">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+              class=""
+              >
+                <defs>
+                  <filter
+                    id="a"
+                    x="0"
+                    y="0"
+                    width="35.873"
+                    height="35.42"
+                    filterUnits="userSpaceOnUse"
+                  >
+                    <feOffset dy="3" />
+                    <feGaussianBlur stdDeviation="3" result="blur" />
+                    <feFlood flood-color="#fff" flood-opacity=".588" />
+                    <feComposite operator="in" in2="blur" />
+                    <feComposite in="SourceGraphic" />
+                  </filter>
+                </defs>
+                <g filter="url(#a)">
+                  <path
+                    data-name="arrow-right-solid"
+                    d="M19.274 7.167l-.886-.886a.953.953 0 00-1.352 0l-7.755 7.751a.953.953 0 000 1.352l7.755 7.755a.953.953 0 001.352 0l.886-.886a.958.958 0 00-.016-1.368l-4.807-4.579h11.464a.955.955 0 00.958-.956v-1.278a.955.955 0 00-.957-.957H14.451l4.807-4.579a.952.952 0 00.016-1.369z"
+                    fill="#404040"
+                  />
+                </g>
+              </svg>
+          </div>
+      </div>
       <img
         :src="data.image"
-        class="rounded-b-3xl w-full h-64 object-cover"
+        class="redondo w-full h-64 object-cover"
         :alt="data.nombre"
       />
     </div>
-    <div class="info text-center mt-2">
+    <div class="info text-center mt-2 mx-4">
       <h1 class="font-bold text-xl">
         {{ data.nombre }}
       </h1>
@@ -33,7 +68,9 @@
         {{ data.descripcion }}
       </p>
     </div>
-    <div class="flex flex-col rounded-xl bg-white py-5 mt-3 px-1 mx-4">
+    <div
+      class="info sombra-pequena flex flex-col rounded-xl bg-white py-4 mt-3 px-1 mx-4"
+    >
       <div>
         <p class="text-sm text-center">Información nutricional</p>
       </div>
@@ -56,35 +93,59 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col bg-white rounded-xl p-5 px-5 mx-4 mt-3">
+    <div
+      class="ingredientes sombra-pequena flex flex-col bg-white rounded-xl p-5 px-5 mx-4 mt-3"
+    >
       <div>
         <p class="text-sm text-center font-bold">Ingredientes</p>
       </div>
-      <div class="flex items-center mb-10">
-        <div>
-          <img src="/assets/ingrediente1.png" alt="" />
+      <div class="flex justify-around mt-3">
+        <div class="flex flex-col items-center">
+          <img
+            class="w-10 h-10 rounded-full"
+            :src="data.image"
+            :alt="data.nombre"
+          />
+          <p class="text-xs">Cerezas</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img
+            class="w-10 h-10 rounded-full"
+            :src="data.image"
+            :alt="data.nombre"
+          />
           <p class="text-xs text-center">Cerezas</p>
         </div>
-        <div>
-          <img src="/assets/ingrediente2.png" alt="" />
+        <div class="flex flex-col items-center">
+          <img
+            class="w-10 h-10 rounded-full"
+            :src="data.image"
+            :alt="data.nombre"
+          />
           <p class="text-xs text-center">Cerezas</p>
         </div>
-        <div>
-          <img src="/assets/ingrediente3.png" alt="" />
-          <p class="text-xs text-center">Cerezas</p>
-        </div>
-        <div>
-          <img src="/assets/ingrediente4.png" alt="" />
+        <div class="flex flex-col items-center">
+          <img
+            class="w-10 h-10 rounded-full"
+            :src="data.image"
+            :alt="data.nombre"
+          />
           <p class="text-xs text-center">Cerezas</p>
         </div>
       </div>
     </div>
-    <div class="flex flex-col bg-white rounded-xl p-5 px-5 mx-4 mt-3">
+    <div
+      class="preparacion sombra-pequena flex flex-col bg-white rounded-xl p-5 px-5 mx-4 mt-3 mb-2"
+    >
       <div>
-        <p class="text-sm text-center font-bold">Ingredientes</p>
+        <p class="text-sm text-center font-bold">Preparacion</p>
       </div>
-      <div class="flex flex-col items-center mb-10">
-        <h3 class="font-bold text-center">Preparacion</h3>
+      <div class="flex flex-col">
+        <ul>
+          <li>Paso 1</li>
+          <li>paso 2</li>
+          <li>paso 3</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -128,6 +189,18 @@ export default {
 </script>
 
 <style>
+.redondo {
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+.flecha{
+     position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
 .custom-shape-divider-bottom-1603949143 {
   position: absolute;
   bottom: 0;

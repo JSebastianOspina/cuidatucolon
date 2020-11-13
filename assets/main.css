@@ -16,3 +16,13 @@ body {
 .steps-leave-active {
   opacity: 0;
 }
+.sombra {
+  -webkit-box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
+  -moz-box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
+  box-shadow: 0px 20px 30px 0px rgba(12, 37, 108, 0.13);
+}
+.sombra-pequena {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
+  box-shadow: 0px 10px 20px 0px rgba(25, 22, 109, 0.1);
+}

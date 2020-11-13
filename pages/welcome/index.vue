@@ -41,7 +41,7 @@
           Descubre recetas ricas y saludables que te ayudarán en el proceso.
         </p>
         <div class="mt-6 flex justify-between">
-          <nuxt-link to="/home" class="text-gray-500 pl-2 py-3"
+          <nuxt-link to="/" class="text-gray-500 pl-2 py-3"
             >Saltar pasos</nuxt-link
           >
 

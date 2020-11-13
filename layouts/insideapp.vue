@@ -1,7 +1,7 @@
 <template>
-  <div class="contenedor h-screen flex justify-center ">
+  <div class="contenedor h-screen  flex-col flex justify-center ">
    
-    <div class="justify-self-center  overflow-y-auto">
+    <div class="justify-self-center overflow-y-auto overflow-x-hidden">
       <Nuxt />
     </div>
     <div class="barra-abajo">
@@ -10,11 +10,11 @@
       <!-- <section id="bottom-navigation" class="md:hidden block fixed inset-x-0 bottom-0 z-10 bg-white shadow"> // if shown only tablet/mobile-->
       <section
         id="bottom-navigation"
-        class="block fixed inset-x-0 bottom-0 z-10 bg-white shadow"
+        class="block inset-x-0 bottom-0 bg-white shadow"
       >
         <div id="tabs" class="flex justify-between">
-          <a
-            href="#"
+          <nuxt-link
+              to="/mis-recetas"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg
@@ -41,9 +41,9 @@
             </svg>
 
             <span class="tab tab-home block text-xs">Mis comidas</span>
-          </a>
-          <a
-            href="#"
+          </nuxt-link>
+          <nuxt-link
+              to="/categorias"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg
@@ -86,9 +86,9 @@
               </g>
             </svg>
             <span class="tab tab-kategori block text-xs">Categorias</span>
-          </a>
-          <a
-            href="#"
+          </nuxt-link>
+           <nuxt-link
+              to="/"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg
@@ -131,11 +131,12 @@
               </g>
             </svg>
             <span class="tab tab-explore block text-xs">Inicio</span>
-          </a>
-          <a
-            href="#"
+          </nuxt-link>
+          <nuxt-link
+              to="/favoritos"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
+         
             <svg
               id="Capa_1"
               height="25"
@@ -157,9 +158,9 @@
             </svg>
 
             <span class="tab tab-whishlist block text-xs">Favoritas</span>
-          </a>
-          <a
-            href="#"
+          </nuxt-link>
+           <nuxt-link
+              to="/perfil"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
@@ -182,7 +183,7 @@
               />
             </svg>
             <span class="tab tab-account block text-xs">Mi cuenta</span>
-          </a>
+          </nuxt-link>
         </div>
       </section>
     </div>
