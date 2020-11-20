@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-screen h-screen">
+  <div class="flex flex-col w-screen h-screen md:w-2/3">
     <div class="imagen relative">
       <div class="custom-shape-divider-top-1603949195">
         <svg
