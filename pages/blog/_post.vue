@@ -19,8 +19,28 @@
         conversiones.
       </p>
       <h3 class="">Tipos de influencer (H3)</h3>
-    </div>
+    <p>
+        No siempre las llamadas celebrities o famosos consiguen generar este engagement. Es frecuente que descuiden a su comunidad o no se preocupan en generar contenido útil para sus seguidores, lo cual termina por afectar su credibilidad como influencer.
+    </p>
+<div class="text-justify mb-3">
+    
+        <h3>
+            ¿Te ha sido útil? 
+        </h3>
+        <h2>
+            ¡Comparte este artículo en tus redes sociales
+        </h2>
+        
+</div>
+</div>
+
+
+    <Facebook class="mb-2"/>
+    <Twitter class="mb-2" />
+    <Whatsapp  class="mb-2"/>
+    
   </div>
+  
 </template>
 <script>
 export default {
