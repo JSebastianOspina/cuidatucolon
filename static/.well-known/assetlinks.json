@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "com.curatucolon.www.twa",
+                   "sha256_cert_fingerprints": ["CC:CB:FC:11:7A:57:DD:8E:22:86:E8:A8:01:F7:52:6F:1B:24:9D:B6:12:3C:48:E0:9D:16:09:D3:9F:72:42:6A"] }
+    }]
