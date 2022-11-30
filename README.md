@@ -1,20 +1,7 @@
-# front
+# "Cuida tu colon" a recipes SRR PWA build on top of nuxt. 
 
-## Build Setup
+This app PWA (front) was made with the purpose of helping people with different gastric problems to find healthy recipes that help them improve and keep track of their food intake in a single application, with a beautiful user interface.
 
-```bash
-# install dependencies
-$ npm install
+## If a picture is worth a thousand words, imagine a video
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+![app video](https://raw.githubusercontent.com/JSebastianOspina/cuidatucolon/master/public/curatucolon.gif)
