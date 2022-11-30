@@ -23,12 +23,16 @@
           />
         </div>
         <p class="text-md font-light mt-6 text-gray-600 ">¿Olvidaste tu contraseña?</p>
-        <button
-          class="mt-6 py-3 rounded-full text-white bg-blue-900 px-7 w-full"
-          type="submit"
-        >
-          Iniciar sesión
-        </button>
+        <nuxt-link to="/welcome">
+          <button
+            class="mt-6 py-3 rounded-full text-white bg-blue-900 px-7 w-full"
+            type="submit"
+            @click=""
+          >
+            Iniciar sesión
+          </button>
+        </nuxt-link>
+
         <p class="text-md font-light text-gray-600 mt-6 inline-block">
           ¿No tienes una cuenta?
         </p>
@@ -36,7 +40,7 @@
       </form>
     </div>
     <div class="flex flex-row mt-5 justify-center">
-     
+
       <div class="mr-2 p-3 rounded-md shadow-md w-auto bg-white">
         <svg
           class="w-10 rounded h-5 mx-auto"
